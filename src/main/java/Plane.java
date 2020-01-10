@@ -20,4 +20,8 @@ public class Plane {
         this.planeCapacity -=amount;
 
     }
+
+    public PlaneType returnPlaneType(){
+        return this.type;
+    }
 }

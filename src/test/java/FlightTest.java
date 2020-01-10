@@ -2,7 +2,6 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-//Also will test FlightManager in here
 
 import java.util.ArrayList;
 
@@ -21,6 +20,7 @@ public class FlightTest {
     public void setUp(){
         plane = new Plane(PlaneType.APACHE);
         flight = new Flight("ABC123",plane,"EDI","LDN","16:00");
+
         flightMNGR = new FlightManager(flight);
     }
 
@@ -42,11 +42,11 @@ public class FlightTest {
         assertEquals(3,flight.getSeats());
     }
 
-    @Test
-    public void canCalcAmountofBaggageperPassenger(){
-        assertEquals(7.5,flightMNGR.passengerBaggageAllowance(),0.001);
-    }
-
+//
+//    @Test
+//    public void allPassengersReturned
+//
+//
 
 
 

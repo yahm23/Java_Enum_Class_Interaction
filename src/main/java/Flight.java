@@ -39,4 +39,8 @@ public class Flight {
     public Plane returnPlane(){
         return this.plane;
     }
+
+    public ArrayList<Passenger> returnPassengerList(){
+        return this.passengers;
+    }
 }
