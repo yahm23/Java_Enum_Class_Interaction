@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
+
 public class PlaneTest {
     Plane plane;
 
@@ -25,6 +26,8 @@ public class PlaneTest {
         plane.reduceCapacity(1);
         assertEquals(3,plane.getCapacity());
     }
+
+
 
 
 }

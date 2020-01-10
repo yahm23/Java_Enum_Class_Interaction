@@ -36,5 +36,7 @@ public class Flight {
         }
     }
 
-//    public
+    public Plane returnPlane(){
+        return this.plane;
+    }
 }
